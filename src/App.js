@@ -3,16 +3,18 @@ import {
   BrowserRouter,
  
 } from "react-router-dom";
-import { Header } from "./components/Header";
-import { Link } from "react-router-dom";
-
+import { Loyut } from "./components/Louyt";
 function AppContent() {
   return (
     <div>
-    <Header/>
-    <div>
-    <Link to="/app"/>
-    </div>
+    <header>
+      <Loyut/>
+    </header>
+    <main>
+    </main>
+    <footer>
+
+    </footer>
     </div>
   );
 }
